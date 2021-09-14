@@ -19,9 +19,6 @@
   <link rel="stylesheet" href="./assets/css/theme.bundle.css" id="stylesheetLight" />
   <link rel="stylesheet" href="./assets/css/theme-dark.bundle.css" id="stylesheetDark" />
 
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="./assets/css/custom.css" id="stylesheetLight" />
-
   <style>
     body {
       display: none;
@@ -252,6 +249,7 @@
 
           </div>
 
+
         </div>
 
       </div> <!-- / .navbar-collapse -->
@@ -281,12 +279,12 @@
 
               <!-- Pretitle -->
               <h6 class="header-pretitle">
-                New estimate
+                Property
               </h6>
 
               <!-- Title -->
               <h1 class="header-title">
-                Create a new estimate
+                Job title
               </h1>
 
             </div>
@@ -302,252 +300,129 @@
 
     <div class="container-fluid">
       <div class="row justify-content-center">
-        <div class="col-12 col-lg-12 col-xl-12">
+        <div class="col-12 col-lg-10 col-xl-8">
 
-          <!-- Form -->
-          <form class="mb-4">
-
-            <!-- Start date -->
-            <div class="form-group">
-
-              <!-- Label -->
-              <label class="form-label">
-                Date
-              </label>
-
-              <!-- Input -->
-              <input type="text" class="form-control" data-flatpickr>
-
+          <div class="card">
+            <div class="card-header">
+              <!-- Title -->
+              <h4 class="card-header-title">
+                Job Owner
+              </h4>
             </div>
+            <div class="card-body">
 
-            <!-- Status -->
-            <div class="form-group">
+              <!-- List group -->
+              <div class="list-group list-group-flush my-n3">
+                <div class="list-group-item">
+                  <div class="row align-items-center">
+                    <div class="col-5 ms-n2">
 
-              <!-- Label  -->
-              <label class="form-label">
-                Status
-              </label>
+                      <!-- Title -->
+                      <h4 class="mb-1">
+                        <a href="profile-posts.html">Dianna Smiley</a>
+                      </h4>
 
-              <!-- Input -->
-              <select name="status" id="status" class="form-control">
-                <option value="volvo">Draft</option>
-                <option value="saab">Final</option>
-              </select>
+                      <!-- Email -->
+                      <p class="small text-muted mb-0">
+                        <a class="d-block text-reset text-truncate"
+                          href="mailt:dianna.smiley@company.com">dianna.smiley@company.com</a>
+                      </p>
 
-            </div>
-
-            <!-- Card -->
-            <div class="card">
-              <div class="card-header">
-
-                <!-- Title -->
-                <h4 class="card-header-title">
-                  Quoted Items
-                </h4>
-
-                <a href="estimate-item.html" class="btn w-30 btn-primary">
-                  + Add Item
-                </a>
-
+                    </div>
+                    <div class="col-auto ms-auto me-n3">
+                    </div>
+                    <div class="col-auto">
+                    </div>
+                  </div> <!-- / .row -->
+                </div>
               </div>
-              <div class="table-responsive">
-                <table class="table table-sm table-nowrap card-table">
-                  <thead>
-                    <tr>
-                      <th>
-                        Number
-                      </th>
-                      <th>Product/Service</th>
-                      <th>List Price</th>
-                      <th>Quantity</th>
-                      <th>Total</th>
-                      <th></th>
-                      <th></th>
-                    </tr>
-                  </thead>
-                  <tbody class="fs-base">
-                    <tr>
-                      <td>
-                        1
-                      </td>
-                      <td>
-                        Service Title
-                      </td>
-                      <td>
-                        $29.00
-                      </td>
-                      <td>
-                        1
-                      </td>
-                      <td>
-                        $20
-                      </td>
-                      <td>
-                        <a href="#">
-                          <i class="fe fe-edit"></i>
-                        </a>
-                      </td>
-                      <td>
-                        <a href="#">
-                          <i class="fe fe-trash"></i>
-                        </a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        2
-                      </td>
-                      <td>
-                        Service Title
-                      </td>
-                      <td>
-                        $29.00
-                      </td>
-                      <td>
-                        1
-                      </td>
-                      <td>
-                        $20
-                      </td>
-                      <td>
-                        <a href="#">
-                          <i class="fe fe-edit"></i>
-                        </a>
-                      </td>
-                      <td>
-                        <a href="#">
-                          <i class="fe fe-trash"></i>
-                        </a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        3
-                      </td>
-                      <td>
-                        Service Title
-                      </td>
-                      <td>
-                        $29.00
-                      </td>
-                      <td>
-                        1
-                      </td>
-                      <td>
-                        $20
-                      </td>
-                      <td>
-                        <a href="#">
-                          <i class="fe fe-edit"></i>
-                        </a>
-                      </td>
-                      <td>
-                        <a href="#">
-                          <i class="fe fe-trash"></i>
-                        </a>
-                      </td>
-                    </tr>
-                  </tbody>
-                  <thead>
-                    <tr>
-                      <th>
-                        Total
-                      </th>
-                      <th></th>
-                    </tr>
-                  </thead>
-                  <tbody class="fs-base">
-                    <tr>
-                      <td>
-                        Sub Total
-                      </td>
-                      <td>
-                        $100
-                      </td>
-                      <td></td>
-                    </tr>
-                    <tr>
-                      <td>
-                        Discount
-                      </td>
-                      <td>
-                        $100
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        Tax
-                      </td>
-                      <td>
-                        $100
-                      </td>
-                      <td></td>
-                    </tr>
-                    <tr>
-                      <td>
-                        Grand Total
-                      </td>
-                      <td>
-                        $100
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-
-            <!-- Tax -->
-            <div class="form-group">
-
-              <!-- Label  -->
-              <label class="form-label">
-                Tax
-              </label>
-
-              <!-- Input -->
-              <input type="text" class="form-control">
 
             </div>
+          </div>
 
-            <!-- Discount -->
-            <div class="form-group">
+          <!-- Card -->
+          <div class="card">
+            <div class="card-header">
 
-              <!-- Label  -->
-              <label class="form-label">
-                Discount
-              </label>
-
-              <!-- Input -->
-              <input type="text" class="form-control">
-
-            </div>
-
-            <!-- Internal notes -->
-            <div class="form-group">
-
-              <!-- Label  -->
-              <label class="form-label">
-                Info link
-              </label>
-
-              <!-- Input -->
-              <input type="text" class="form-control">
+              <!-- Title -->
+              <h4 class="card-header-title">
+                Invoices
+              </h4>            
 
             </div>
-
-            <!-- Buttons -->
-            <div class="form-group">
-
-              <a href="#" class="btn w-100 btn-primary">
-                New Estimate
-              </a>
-
+            <div class="table-responsive">
+              <table class="table table-sm table-nowrap card-table">
+                <thead>
+                  <tr>
+                    <th>Invoice ID</th>
+                    <th>Date</th>
+                    <th>Amount</th>
+                    <th>Status</th>                    
+                  </tr>
+                </thead>
+                <tbody class="fs-base">
+                  <tr>
+                    <td>                      
+                      <a href="invoice-single.html">Invoice #10395</a>
+                    </td>
+                    <td>
+                      <time datetime="2020-04-24">Apr. 24, 2020</time>
+                    </td>
+                    <td>
+                      $29.00
+                    </td>
+                    <td>
+                      <span class="badge bg-secondary">Unpaid</span>
+                    </td>                
+                  </tr>
+                  <tr>
+                    <td>
+                      <a href="invoice-single.html">Invoice #10395</a>
+                    </td>
+                    <td>
+                      <time datetime="2020-03-24">Mar. 24, 2020</time>
+                    </td>
+                    <td>
+                      $29.00
+                    </td>
+                    <td>
+                      <span class="badge bg-success">Paid</span>
+                    </td>                
+                  </tr>
+                  <tr>
+                    <td>
+                      <a href="invoice-single.html">Invoice #10395</a>
+                    </td>
+                    <td>
+                      <time datetime="2020-02-24">Feb. 24, 2020</time>
+                    </td>
+                    <td>
+                      $29.00
+                    </td>
+                    <td>
+                      <span class="badge bg-success">Paid</span>
+                    </td>               
+                  </tr>
+                  <tr>
+                    <td>
+                      <a href="invoice-single.html">Invoice #10395</a>
+                    </td>
+                    <td>
+                      <time datetime="2020-01-24">Jan. 24, 2020</time>
+                    </td>
+                    <td>
+                      $29.00
+                    </td>
+                    <td>
+                      <span class="badge bg-success">Paid</span>
+                    </td>              
+                  </tr>
+                </tbody>
+              </table>
             </div>
-
-          </form>
+          </div>
 
         </div> <!-- / .row -->
-
 
       </div> <!-- / .row -->
     </div>
